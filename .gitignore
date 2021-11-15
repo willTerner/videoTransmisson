@@ -98,4 +98,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # configuration file
-*.yml
+.yml
