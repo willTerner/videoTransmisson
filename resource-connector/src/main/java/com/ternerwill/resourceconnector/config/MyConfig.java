@@ -23,7 +23,7 @@ public class MyConfig {
                 WebMvcConfigurer.super.addCorsMappings(registry);
 
                 registry.addMapping("/mobile/**")
-                        .allowedOrigins("http://localhost:8082","http://192.168.1.7:8082")
+                        .allowedOrigins("http://localhost:8082","http://10.12.171.116:8082")
                         .allowedHeaders("*")
                         .allowedMethods("OPTIONS","GET","POST","PUT","DELETE");
                 WebMvcConfigurer.super.addCorsMappings(registry);
