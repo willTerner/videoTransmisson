@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    #  驱动
+    driver-class-name: org.h2.Driver
+    # h2
+    url: jdbc:h2:~/db/resource;AUTO_SERVER=TRUE
+
+
+
+# mybatis 配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
